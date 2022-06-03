@@ -1,7 +1,7 @@
 #include<stdio.h>
 /*
- *main - entry point for code
- *return - 0 mean success
+ * main - entry point for code
+ * return - 0 mean success
  */
 int main(void)
 {
