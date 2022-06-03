@@ -1,9 +1,10 @@
 #include<stdio.h>
 /*
- *main is the code entry point
+ *main - entry point for code
+ *return - 0 mean success
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	return (0);
 }
