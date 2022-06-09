@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <ctype.h>
 /**
  * main - Entry Point
  *
@@ -10,7 +10,9 @@
 int main(void)
 {
 	int ch = 'A';
+	int lower_case;
 
 	for (ch = 'A'; ch <= 'Z'; ch++)
-		printf(tolower(ch));
-}
+		lower_case = (tolower(ch));
+		printf("%d", lower_case);
+}	
