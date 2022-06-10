@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-	int ch = 'A';
-	int lower_case;
+	int ch;
 
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		lower_case = (tolower(ch));
-		printf("%d", lower_case);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
 }	
