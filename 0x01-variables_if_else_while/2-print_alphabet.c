@@ -4,7 +4,7 @@
 /**
  * main - Entry Point
  *
- * @ch: Character to be written
+ * ch: Character to be written
  *
  * Return: Always 0 (Success)
  */
