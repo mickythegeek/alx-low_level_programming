@@ -6,16 +6,13 @@
  *
  * digit - single digits
  *
- * base - Represent Base 10
- *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char digit = '0';
-	char* base = "10";
-
-	for (digit = '0'; digit < base; digit++)
+	int digit;
+	
+	for (digit = 0; digit < 10; digit++)
 	{
 		putchar(digit);
 	}
