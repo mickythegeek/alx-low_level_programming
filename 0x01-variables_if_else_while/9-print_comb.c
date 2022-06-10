@@ -17,7 +17,8 @@ int main(void)
 		putchar(digit);
 		putchar(44);
 		putchar(32);
-		break;
+		if (digit == 57)
+			break;
 	}
 	putchar('\n');
 	return (0);
