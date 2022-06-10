@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(voi)
+int main(void)
 {
 	int digit;
 
@@ -16,6 +16,6 @@ int main(voi)
 	{
 		printf("%d", digit);
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
