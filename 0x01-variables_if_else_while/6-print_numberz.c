@@ -4,15 +4,18 @@
 /**
  * main - Entry Point
  *
- * digit - single digitsof Base 10
+ * digit - single digits
+ *
+ * base - Represent Base 10
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
 	char digit = '0';
+	char* base = "10";
 
-	for (digit = '0'; digit < '10'; digit++)
+	for (digit = '0'; digit < base; digit++)
 	{
 		putchar(digit);
 	}
