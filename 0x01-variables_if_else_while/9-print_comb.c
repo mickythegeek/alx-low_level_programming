@@ -16,6 +16,9 @@ int main(void)
 	{
 		putchar(digit);
 		putchar(44);
+		putchar(32);
+		if (digit == 58)
+			break;
 	}
 	putchar('\n');
 	return (0);
