@@ -12,9 +12,9 @@ int main(void)
 {
 	int digit;
 	
-	for (digit = 0; digit < 10; digit++)
+	for (digit = 48; digit < 58; digit++)
 	{
-		putchar("%c", digit);
+		putchar(digit);
 	}
 	putchar('\n');
 	return (0);
