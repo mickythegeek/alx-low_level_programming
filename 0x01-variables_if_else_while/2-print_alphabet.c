@@ -5,11 +5,14 @@
  * main - Entry Point
  *
  * @ch: Character to be written
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	for (char ch = 'a'; ch <= 'z'; ch++)
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
