@@ -4,8 +4,6 @@
  *
  * @n: placeholder for the number
  *
- *@last_digit: placeholder for the last digit
- *
  * Return: Value of the last digit
  */
 int print_last_digit(int n)
