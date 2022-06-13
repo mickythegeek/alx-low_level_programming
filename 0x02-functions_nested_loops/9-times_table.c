@@ -8,10 +8,10 @@ void times_table(void)
 {
 	int i, j, mult_op;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		_putchar(48);
-		for (j = 1; j < 9; j++)
+		for (j = 1; j <= 9; j++)
 		{
 			mult_op = i * j;
 			_putchar(44);
