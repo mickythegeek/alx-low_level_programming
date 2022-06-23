@@ -19,7 +19,7 @@ void puts_half(char *str)
 	while (y <= (x - 1))
 	{
 		_putchar(*(str + y));
-		y+;
+		y++;
 	}
 	_putchar('\n');
 }
