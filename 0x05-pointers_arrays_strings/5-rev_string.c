@@ -13,10 +13,10 @@ void rev_string(char *s)
 	{
 		x++;
 	}
-	*tp = *s;
+	*tmp = *s;
 	while (x != 0)
 	{
-		s[z] = tp[x];
+		s[z] = tmp[x];
 		x--;
 		z++;
 	}
