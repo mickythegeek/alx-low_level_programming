@@ -2,7 +2,7 @@
 /**
  * _strncat - concatenates two strings,
  * @dest: destination
- * #src: source
+ * @src: source
  * @n: amount of bytes used frim src
  * Return: the pointer to dest
  */
@@ -24,4 +24,4 @@ char *_strncat(char *dest, char *src, int n)
 		count2++;
 	}
 	return (dest);
-}		
+}
