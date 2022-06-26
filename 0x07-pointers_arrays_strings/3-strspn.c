@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if (bool == 10)
+		if (bool == 1)
 			break;
 	}
 	return (i);
