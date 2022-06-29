@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 	{
 		y = 0;
 		printf("Error\n");
-		x = 1;
+		c = 1;
 	}
 	else
 	{
@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 
 		y = a * b;
 		printf("%d\n", y);
-		x = 0;
+		c = 0;
 	}
-	return (x);
+	return (c);
 }
