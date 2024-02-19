@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <fnctl.h>
 /**
  * read_textfile - function that reads a text_file and prints to POSIX stdout
  * @letters: num of letters it should read and print
