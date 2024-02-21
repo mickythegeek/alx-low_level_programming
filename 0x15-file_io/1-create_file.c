@@ -15,25 +15,27 @@ int create_file(const char *filename, char *text_content)
 	ssize_t bytes_written;
 
 	if (!filename)
-		return (0);
+		return (-1);
 
 	fd = open(filename, O_CREAT | O_RDONLY | O_TRUNC, 0600);
-	text_content = "God, when?";
-	bytes_written = write(fd, text_content, strlen(text_content));
 
 	if (fd == -1)
 		return (0);
 
-	buf = malloc(sizeof(char) * strlen((text_content) + 1));
+	if (!text_content)
+		text_content = "";
 
-	if (!buf)
-		return (0);
-	nwr = write(STDOUT_FILENO, buf, bytes_written);
+
+
+	bytes_written = write(fd, text_content, strlen(text_content));
+
+	if (bytes_written == -1)
+		return (-1);
+
 
 	close(fd);
 
-	free(buf);
 
-	return (nwr);
+	return (1);
 
 }
